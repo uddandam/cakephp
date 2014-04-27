@@ -103,6 +103,7 @@ class I18n {
 
 /**
  * Return a static instance of the I18n class
+ * Vinson Ralph - comment test
  *
  * @return I18n
  */
