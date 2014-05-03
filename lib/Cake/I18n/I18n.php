@@ -105,6 +105,7 @@ class I18n {
  * Return a static instance of the I18n class
  * VINTEST - comment test
  * VINTEST - MORE changes
+ * VINTEST - change no 4
  *
  * @return I18n
  */
