@@ -107,6 +107,7 @@ class I18n {
  * VINTEST - MORE changes
  * VINTEST - change no 4
  * VINTEST - change no 5
+ * VINTEST - change no 6
  *
  * @return I18n
  */
