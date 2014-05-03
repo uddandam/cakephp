@@ -103,12 +103,13 @@ class I18n {
 
 /**
  * Return a static instance of the I18n class
- * Vinson Ralph - comment test
+ * VINTEST - comment test
  *
  * @return I18n
  */
 	public static function getInstance() {
 		static $instance = array();
+		static $vintest_temp = array();
 		if (!$instance) {
 			$instance[0] = new I18n();
 		}
