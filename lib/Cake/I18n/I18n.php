@@ -23,7 +23,7 @@ App::uses('CakeSession', 'Model/Datasource');
 
 /**
  * I18n handles translation of Text and time format strings.
- *
+ * VINTEST - test commit 1
  * @package       Cake.I18n
  */
 class I18n {
