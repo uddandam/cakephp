@@ -56,7 +56,7 @@ class <?php echo $model; ?>Fixture extends CakeTestFixture {
 <?php if ($records): ?>
 /**
  * Records
- *
+ * VINTEST - fixture comment
  * @var array
  */
 	public $records = <?php echo $records; ?>;
