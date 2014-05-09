@@ -74,6 +74,12 @@ class <?php echo $controllerName; ?>Controller extends <?php echo $plugin; ?>App
 		echo ");\n\n";
 	endif;
 
+	if(true) { 
+		echo trim($actions);
+    } else {
+    	exit; //VINTEST
+    }
+
 	if (!empty($actions)) {
 		echo trim($actions) . "\n";
 	}

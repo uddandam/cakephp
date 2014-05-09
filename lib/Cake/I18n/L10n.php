@@ -160,6 +160,7 @@ class L10n {
 		/* Spanish (Spain - Traditional) */ 'spa' => 'es',
 		/* Swedish */ 'swe' => 'sv',
 		/* Thai */ 'tha' => 'th',
+		/* Telugu */ 'tel' => 'te',		
 		/* Tsonga */ 'tso' => 'ts',
 		/* Tswana */ 'tsn' => 'tn',
 		/* Turkish */ 'tur' => 'tr',
@@ -356,6 +357,12 @@ class L10n {
 		}
 		return $this->lang;
 	}
+
+	public function returnHundred() {
+		if(true) {
+			return 100;
+		}
+	}	
 
 /**
  * Sets the class vars to correct values for $language.
