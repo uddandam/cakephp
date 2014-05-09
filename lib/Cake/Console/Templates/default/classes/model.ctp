@@ -55,7 +55,7 @@ endif;
 if ($primaryKey !== 'id'): ?>
 /**
  * Primary key field
- *
+ * VINTEST - model comment
  * @var string
  */
 	public $primaryKey = '<?php echo $primaryKey; ?>';

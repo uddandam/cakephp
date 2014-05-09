@@ -71,7 +71,7 @@ class <?php echo $fullClassName; ?>Test extends CakeTestCase {
 <?php foreach ($methods as $method): ?>
 /**
  * test<?php echo Inflector::camelize($method); ?> method
- *
+ * VINTEST testctp comment
  * @return void
  */
 	public function test<?php echo Inflector::camelize($method); ?>() {
