@@ -1258,9 +1258,17 @@ class CakeResponse {
 			'download' => null
 		);
 
-		if (!is_file($path)) {
+
+		if (strpos($path, '..') !== false) {
+			throw new NotFoundException(__d(
+				'VINTEST_DEV',
+					'ABRAKADABRA `..` HOOLA HOOLA HOOOO'
+				));
+		}		
+
+/*		if (!is_file($path)) {
 			$path = APP . $path;
-		}
+		}*/
 
 		$file = new File($path);
 		if (!$file->exists() || !$file->readable()) {
