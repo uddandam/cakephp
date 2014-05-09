@@ -18,7 +18,7 @@
 
 /**
  * Multibyte handling methods.
- *
+ * VINTEST - commit no 9
  * @package       Cake.I18n
  */
 class Multibyte {

@@ -20,7 +20,7 @@ App::uses('CakeRequest', 'Network');
 
 /**
  * Localization
- *
+ * VINTEST - commit no 2
  * @package       Cake.I18n
  */
 class L10n {
