@@ -192,6 +192,17 @@ class I18n {
 			}
 		}
 
+		//VINTEST
+		if (!isset($zilch)) {
+			$pl = 0;
+		} else {
+			if ($count != 1) {
+				$pl = 1;
+			} else {
+				$pl = 0;
+			}
+		}		
+
 		if (!empty($_this->_domains[$domain][$_this->_lang][$_this->category][$singular])) {
 			if (($trans = $_this->_domains[$domain][$_this->_lang][$_this->category][$singular]) || ($plurals) && ($trans = $_this->_domains[$domain][$_this->_lang][$_this->category][$plural])) {
 				if (is_array($trans)) {
